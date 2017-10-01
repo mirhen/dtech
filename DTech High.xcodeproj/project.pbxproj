@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAC200001F80C1340031BF88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC2FFFE1F80C1340031BF88 /* LaunchScreen.storyboard */; };
+		FAC2000B1F80C1340031BF88 /* DTech_HighTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC2000A1F80C1340031BF88 /* DTech_HighTests.swift */; };
+		FAC200161F80C1340031BF88 /* DTech_HighUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC200151F80C1340031BF88 /* DTech_HighUITests.swift */; };
+		FAC2FFF61F80C1340031BF88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC2FFF51F80C1340031BF88 /* AppDelegate.swift */; };
+		FAC2FFF81F80C1340031BF88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC2FFF71F80C1340031BF88 /* ViewController.swift */; };
+		FAC2FFFB1F80C1340031BF88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC2FFF91F80C1340031BF88 /* Main.storyboard */; };
+		FAC2FFFD1F80C1340031BF88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC2FFFC1F80C1340031BF88 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAC200071F80C1340031BF88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAC2FFEA1F80C1340031BF88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAC2FFF11F80C1340031BF88;
+			remoteInfo = "DTech High";
+		};
+		FAC200121F80C1340031BF88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAC2FFEA1F80C1340031BF88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAC2FFF11F80C1340031BF88;
+			remoteInfo = "DTech High";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAC200011F80C1340031BF88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC200061F80C1340031BF88 /* DTech HighTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DTech HighTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC2000A1F80C1340031BF88 /* DTech_HighTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTech_HighTests.swift; sourceTree = "<group>"; };
+		FAC2000C1F80C1340031BF88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC200111F80C1340031BF88 /* DTech HighUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DTech HighUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC200151F80C1340031BF88 /* DTech_HighUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTech_HighUITests.swift; sourceTree = "<group>"; };
+		FAC200171F80C1340031BF88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC2FFF21F80C1340031BF88 /* DTech High.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DTech High.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC2FFF51F80C1340031BF88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAC2FFF71F80C1340031BF88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAC2FFFA1F80C1340031BF88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAC2FFFC1F80C1340031BF88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAC2FFFF1F80C1340031BF88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAC200031F80C1340031BF88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC2000E1F80C1340031BF88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC2FFEF1F80C1340031BF88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAC200091F80C1340031BF88 /* DTech HighTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAC2000A1F80C1340031BF88 /* DTech_HighTests.swift */,
+				FAC2000C1F80C1340031BF88 /* Info.plist */,
+			);
+			path = "DTech HighTests";
+			sourceTree = "<group>";
+		};
+		FAC200141F80C1340031BF88 /* DTech HighUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAC200151F80C1340031BF88 /* DTech_HighUITests.swift */,
+				FAC200171F80C1340031BF88 /* Info.plist */,
+			);
+			path = "DTech HighUITests";
+			sourceTree = "<group>";
+		};
+		FAC2FFE91F80C1340031BF88 = {
+			isa = PBXGroup;
+			children = (
+				FAC2FFF41F80C1340031BF88 /* DTech High */,
+				FAC200091F80C1340031BF88 /* DTech HighTests */,
+				FAC200141F80C1340031BF88 /* DTech HighUITests */,
+				FAC2FFF31F80C1340031BF88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAC2FFF31F80C1340031BF88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAC2FFF21F80C1340031BF88 /* DTech High.app */,
+				FAC200061F80C1340031BF88 /* DTech HighTests.xctest */,
+				FAC200111F80C1340031BF88 /* DTech HighUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAC2FFF41F80C1340031BF88 /* DTech High */ = {
+			isa = PBXGroup;
+			children = (
+				FAC2FFF51F80C1340031BF88 /* AppDelegate.swift */,
+				FAC2FFF71F80C1340031BF88 /* ViewController.swift */,
+				FAC2FFF91F80C1340031BF88 /* Main.storyboard */,
+				FAC2FFFC1F80C1340031BF88 /* Assets.xcassets */,
+				FAC2FFFE1F80C1340031BF88 /* LaunchScreen.storyboard */,
+				FAC200011F80C1340031BF88 /* Info.plist */,
+			);
+			path = "DTech High";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAC200051F80C1340031BF88 /* DTech HighTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC2001D1F80C1340031BF88 /* Build configuration list for PBXNativeTarget "DTech HighTests" */;
+			buildPhases = (
+				FAC200021F80C1340031BF88 /* Sources */,
+				FAC200031F80C1340031BF88 /* Frameworks */,
+				FAC200041F80C1340031BF88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAC200081F80C1340031BF88 /* PBXTargetDependency */,
+			);
+			name = "DTech HighTests";
+			productName = "DTech HighTests";
+			productReference = FAC200061F80C1340031BF88 /* DTech HighTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAC200101F80C1340031BF88 /* DTech HighUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC200201F80C1340031BF88 /* Build configuration list for PBXNativeTarget "DTech HighUITests" */;
+			buildPhases = (
+				FAC2000D1F80C1340031BF88 /* Sources */,
+				FAC2000E1F80C1340031BF88 /* Frameworks */,
+				FAC2000F1F80C1340031BF88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAC200131F80C1340031BF88 /* PBXTargetDependency */,
+			);
+			name = "DTech HighUITests";
+			productName = "DTech HighUITests";
+			productReference = FAC200111F80C1340031BF88 /* DTech HighUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		FAC2FFF11F80C1340031BF88 /* DTech High */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC2001A1F80C1340031BF88 /* Build configuration list for PBXNativeTarget "DTech High" */;
+			buildPhases = (
+				FAC2FFEE1F80C1340031BF88 /* Sources */,
+				FAC2FFEF1F80C1340031BF88 /* Frameworks */,
+				FAC2FFF01F80C1340031BF88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DTech High";
+			productName = "DTech High";
+			productReference = FAC2FFF21F80C1340031BF88 /* DTech High.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAC2FFEA1F80C1340031BF88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Miriam Haart";
+				TargetAttributes = {
+					FAC200051F80C1340031BF88 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7QQX7GNST9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FAC2FFF11F80C1340031BF88;
+					};
+					FAC200101F80C1340031BF88 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7QQX7GNST9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FAC2FFF11F80C1340031BF88;
+					};
+					FAC2FFF11F80C1340031BF88 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7QQX7GNST9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FAC2FFED1F80C1340031BF88 /* Build configuration list for PBXProject "DTech High" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAC2FFE91F80C1340031BF88;
+			productRefGroup = FAC2FFF31F80C1340031BF88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAC2FFF11F80C1340031BF88 /* DTech High */,
+				FAC200051F80C1340031BF88 /* DTech HighTests */,
+				FAC200101F80C1340031BF88 /* DTech HighUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAC200041F80C1340031BF88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC2000F1F80C1340031BF88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC2FFF01F80C1340031BF88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC200001F80C1340031BF88 /* LaunchScreen.storyboard in Resources */,
+				FAC2FFFD1F80C1340031BF88 /* Assets.xcassets in Resources */,
+				FAC2FFFB1F80C1340031BF88 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAC200021F80C1340031BF88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC2000B1F80C1340031BF88 /* DTech_HighTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC2000D1F80C1340031BF88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC200161F80C1340031BF88 /* DTech_HighUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC2FFEE1F80C1340031BF88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC2FFF81F80C1340031BF88 /* ViewController.swift in Sources */,
+				FAC2FFF61F80C1340031BF88 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAC200081F80C1340031BF88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAC2FFF11F80C1340031BF88 /* DTech High */;
+			targetProxy = FAC200071F80C1340031BF88 /* PBXContainerItemProxy */;
+		};
+		FAC200131F80C1340031BF88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAC2FFF11F80C1340031BF88 /* DTech High */;
+			targetProxy = FAC200121F80C1340031BF88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAC2FFF91F80C1340031BF88 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAC2FFFA1F80C1340031BF88 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAC2FFFE1F80C1340031BF88 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAC2FFFF1F80C1340031BF88 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAC200181F80C1340031BF88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAC200191F80C1340031BF88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAC2001B1F80C1340031BF88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7QQX7GNST9;
+				INFOPLIST_FILE = "DTech High/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miriamhaart.DTech-High";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FAC2001C1F80C1340031BF88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7QQX7GNST9;
+				INFOPLIST_FILE = "DTech High/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miriamhaart.DTech-High";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FAC2001E1F80C1340031BF88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7QQX7GNST9;
+				INFOPLIST_FILE = "DTech HighTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miriamhaart.DTech-HighTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DTech High.app/DTech High";
+			};
+			name = Debug;
+		};
+		FAC2001F1F80C1340031BF88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7QQX7GNST9;
+				INFOPLIST_FILE = "DTech HighTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miriamhaart.DTech-HighTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DTech High.app/DTech High";
+			};
+			name = Release;
+		};
+		FAC200211F80C1340031BF88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7QQX7GNST9;
+				INFOPLIST_FILE = "DTech HighUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miriamhaart.DTech-HighUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "DTech High";
+			};
+			name = Debug;
+		};
+		FAC200221F80C1340031BF88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7QQX7GNST9;
+				INFOPLIST_FILE = "DTech HighUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miriamhaart.DTech-HighUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "DTech High";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAC2001A1F80C1340031BF88 /* Build configuration list for PBXNativeTarget "DTech High" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC2001B1F80C1340031BF88 /* Debug */,
+				FAC2001C1F80C1340031BF88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAC2001D1F80C1340031BF88 /* Build configuration list for PBXNativeTarget "DTech HighTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC2001E1F80C1340031BF88 /* Debug */,
+				FAC2001F1F80C1340031BF88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAC200201F80C1340031BF88 /* Build configuration list for PBXNativeTarget "DTech HighUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC200211F80C1340031BF88 /* Debug */,
+				FAC200221F80C1340031BF88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAC2FFED1F80C1340031BF88 /* Build configuration list for PBXProject "DTech High" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC200181F80C1340031BF88 /* Debug */,
+				FAC200191F80C1340031BF88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAC2FFEA1F80C1340031BF88 /* Project object */;
+}
