@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7301D71B781BE2834BC05F1A /* Pods_DTech_High.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C3EBBE6F66FA2B4F946572C /* Pods_DTech_High.framework */; };
+		B66672F8A9A8AB2CDD5E92B0 /* Pods_DTech_HighUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC573F8BB6E9409BF268E480 /* Pods_DTech_HighUITests.framework */; };
+		C5AEE80C29DA98115D24E2EF /* Pods_DTech_HighTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 179A867FF9F2665A43448350 /* Pods_DTech_HighTests.framework */; };
+		FA19CDE61F817E8400C263B6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA19CDE51F817E8400C263B6 /* GoogleService-Info.plist */; };
 		FAC200001F80C1340031BF88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC2FFFE1F80C1340031BF88 /* LaunchScreen.storyboard */; };
 		FAC2000B1F80C1340031BF88 /* DTech_HighTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC2000A1F80C1340031BF88 /* DTech_HighTests.swift */; };
 		FAC200161F80C1340031BF88 /* DTech_HighUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC200151F80C1340031BF88 /* DTech_HighUITests.swift */; };
@@ -34,6 +38,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		179A867FF9F2665A43448350 /* Pods_DTech_HighTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DTech_HighTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C3EBBE6F66FA2B4F946572C /* Pods_DTech_High.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DTech_High.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		441E81878DBA25731DF2D6D5 /* Pods-DTech High.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTech High.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DTech High/Pods-DTech High.debug.xcconfig"; sourceTree = "<group>"; };
+		6EFFEB1EE9DB9AB4579F5E1C /* Pods-DTech HighTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTech HighTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DTech HighTests/Pods-DTech HighTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9CE2EA90708ECE241D8F9EB5 /* Pods-DTech HighUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTech HighUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DTech HighUITests/Pods-DTech HighUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A414DDEA83F7E98D318AEEB2 /* Pods-DTech High.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTech High.release.xcconfig"; path = "Pods/Target Support Files/Pods-DTech High/Pods-DTech High.release.xcconfig"; sourceTree = "<group>"; };
+		CF1130DE7F70659808CD0E12 /* Pods-DTech HighTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTech HighTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DTech HighTests/Pods-DTech HighTests.release.xcconfig"; sourceTree = "<group>"; };
+		D3690871EB55E6732654AD73 /* Pods-DTech HighUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTech HighUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DTech HighUITests/Pods-DTech HighUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DC573F8BB6E9409BF268E480 /* Pods_DTech_HighUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DTech_HighUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA19CDE51F817E8400C263B6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FAC200011F80C1340031BF88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAC200061F80C1340031BF88 /* DTech HighTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DTech HighTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAC2000A1F80C1340031BF88 /* DTech_HighTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTech_HighTests.swift; sourceTree = "<group>"; };
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5AEE80C29DA98115D24E2EF /* Pods_DTech_HighTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B66672F8A9A8AB2CDD5E92B0 /* Pods_DTech_HighUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7301D71B781BE2834BC05F1A /* Pods_DTech_High.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2CFF1E4955D561514492C9DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				441E81878DBA25731DF2D6D5 /* Pods-DTech High.debug.xcconfig */,
+				A414DDEA83F7E98D318AEEB2 /* Pods-DTech High.release.xcconfig */,
+				6EFFEB1EE9DB9AB4579F5E1C /* Pods-DTech HighTests.debug.xcconfig */,
+				CF1130DE7F70659808CD0E12 /* Pods-DTech HighTests.release.xcconfig */,
+				9CE2EA90708ECE241D8F9EB5 /* Pods-DTech HighUITests.debug.xcconfig */,
+				D3690871EB55E6732654AD73 /* Pods-DTech HighUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DEA9FC4B3162914761C89A6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C3EBBE6F66FA2B4F946572C /* Pods_DTech_High.framework */,
+				179A867FF9F2665A43448350 /* Pods_DTech_HighTests.framework */,
+				DC573F8BB6E9409BF268E480 /* Pods_DTech_HighUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FAC200091F80C1340031BF88 /* DTech HighTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +139,8 @@
 				FAC200091F80C1340031BF88 /* DTech HighTests */,
 				FAC200141F80C1340031BF88 /* DTech HighUITests */,
 				FAC2FFF31F80C1340031BF88 /* Products */,
+				2CFF1E4955D561514492C9DA /* Pods */,
+				DEA9FC4B3162914761C89A6A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,6 +157,7 @@
 		FAC2FFF41F80C1340031BF88 /* DTech High */ = {
 			isa = PBXGroup;
 			children = (
+				FA19CDE51F817E8400C263B6 /* GoogleService-Info.plist */,
 				FAC2FFF51F80C1340031BF88 /* AppDelegate.swift */,
 				FAC2FFF71F80C1340031BF88 /* ViewController.swift */,
 				FAC2FFF91F80C1340031BF88 /* Main.storyboard */,
@@ -132,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAC2001D1F80C1340031BF88 /* Build configuration list for PBXNativeTarget "DTech HighTests" */;
 			buildPhases = (
+				D1DCBDB96A5323405C947147 /* [CP] Check Pods Manifest.lock */,
 				FAC200021F80C1340031BF88 /* Sources */,
 				FAC200031F80C1340031BF88 /* Frameworks */,
 				FAC200041F80C1340031BF88 /* Resources */,
+				0DE3D00CFF6D3135AD045EB6 /* [CP] Embed Pods Frameworks */,
+				1E574B08EDD7DA751E82D706 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -150,9 +196,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAC200201F80C1340031BF88 /* Build configuration list for PBXNativeTarget "DTech HighUITests" */;
 			buildPhases = (
+				5F32311179400118E41436CF /* [CP] Check Pods Manifest.lock */,
 				FAC2000D1F80C1340031BF88 /* Sources */,
 				FAC2000E1F80C1340031BF88 /* Frameworks */,
 				FAC2000F1F80C1340031BF88 /* Resources */,
+				23D745BCC35EAC856CEDF14A /* [CP] Embed Pods Frameworks */,
+				A48B667B4DDA2394AF67C875 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -168,9 +217,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAC2001A1F80C1340031BF88 /* Build configuration list for PBXNativeTarget "DTech High" */;
 			buildPhases = (
+				4E01772765F3EC2E460A288C /* [CP] Check Pods Manifest.lock */,
 				FAC2FFEE1F80C1340031BF88 /* Sources */,
 				FAC2FFEF1F80C1340031BF88 /* Frameworks */,
 				FAC2FFF01F80C1340031BF88 /* Resources */,
+				E49149B741BD29846EA64422 /* [CP] Embed Pods Frameworks */,
+				3334ABFCA9FBA6D24877FB6A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,12 +302,165 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAC200001F80C1340031BF88 /* LaunchScreen.storyboard in Resources */,
+				FA19CDE61F817E8400C263B6 /* GoogleService-Info.plist in Resources */,
 				FAC2FFFD1F80C1340031BF88 /* Assets.xcassets in Resources */,
 				FAC2FFFB1F80C1340031BF88 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DE3D00CFF6D3135AD045EB6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DTech HighTests/Pods-DTech HighTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E574B08EDD7DA751E82D706 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DTech HighTests/Pods-DTech HighTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		23D745BCC35EAC856CEDF14A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DTech HighUITests/Pods-DTech HighUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3334ABFCA9FBA6D24877FB6A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DTech High/Pods-DTech High-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E01772765F3EC2E460A288C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DTech High-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F32311179400118E41436CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DTech HighUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A48B667B4DDA2394AF67C875 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DTech HighUITests/Pods-DTech HighUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1DCBDB96A5323405C947147 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DTech HighTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E49149B741BD29846EA64422 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DTech High/Pods-DTech High-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DTech High/Pods-DTech High-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FAC200021F80C1340031BF88 /* Sources */ = {
@@ -415,6 +620,7 @@
 		};
 		FAC2001B1F80C1340031BF88 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 441E81878DBA25731DF2D6D5 /* Pods-DTech High.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7QQX7GNST9;
@@ -428,6 +634,7 @@
 		};
 		FAC2001C1F80C1340031BF88 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A414DDEA83F7E98D318AEEB2 /* Pods-DTech High.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7QQX7GNST9;
@@ -441,6 +648,7 @@
 		};
 		FAC2001E1F80C1340031BF88 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EFFEB1EE9DB9AB4579F5E1C /* Pods-DTech HighTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -456,6 +664,7 @@
 		};
 		FAC2001F1F80C1340031BF88 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF1130DE7F70659808CD0E12 /* Pods-DTech HighTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +680,7 @@
 		};
 		FAC200211F80C1340031BF88 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CE2EA90708ECE241D8F9EB5 /* Pods-DTech HighUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 7QQX7GNST9;
@@ -485,6 +695,7 @@
 		};
 		FAC200221F80C1340031BF88 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3690871EB55E6732654AD73 /* Pods-DTech HighUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 7QQX7GNST9;
@@ -507,6 +718,7 @@
 				FAC2001C1F80C1340031BF88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAC2001D1F80C1340031BF88 /* Build configuration list for PBXNativeTarget "DTech HighTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +727,7 @@
 				FAC2001F1F80C1340031BF88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAC200201F80C1340031BF88 /* Build configuration list for PBXNativeTarget "DTech HighUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +736,7 @@
 				FAC200221F80C1340031BF88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAC2FFED1F80C1340031BF88 /* Build configuration list for PBXProject "DTech High" */ = {
 			isa = XCConfigurationList;

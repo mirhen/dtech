@@ -1,0 +1,6 @@
+framework module Pods_DTech_HighUITests {
+  umbrella header "Pods-DTech HighUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
